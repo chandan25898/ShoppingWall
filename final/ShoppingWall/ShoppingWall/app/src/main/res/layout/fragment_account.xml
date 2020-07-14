@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".accountFragment" >
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <TextView
+        android:id="@+id/userpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="password"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        tools:layout_editor_absoluteX="173dp" />
+
+    <TextView
+        android:id="@+id/tvacc"
+        android:layout_width="216dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Hi Avententurer"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <Button
+        android:id="@+id/btnchange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="469dp" />
+</android.support.constraint.ConstraintLayout>
